@@ -83,6 +83,10 @@ body{
     background-color: #189582;
     border-color: #189582;
 }
+#login-text{
+    font-size: 13px;
+    padding: .5rem;
+}
 
 /*-- course section --*/
 .narrow {
