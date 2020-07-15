@@ -64,7 +64,7 @@ body{
     padding-bottom: 1.6rem;
     text-transform: capitalize;
 }
-.btn-lg {
+.btn-lg, .md-form {
     border-width: medium;
     border-radius: .15rem;
     padding-top: 2px;
@@ -74,7 +74,15 @@ body{
 .form-control {
     margin: auto;
 }
-
+#login-btn {
+    color:#1ebba3;
+    border-color:#1ebba3;
+}
+#login-btn:hover {
+    color: #ffffff;
+    background-color: #189582;
+    border-color: #189582;
+}
 
 /*-- course section --*/
 .narrow {
