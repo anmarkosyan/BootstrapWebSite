@@ -106,7 +106,7 @@ body{
 
     margin: 1rem;
     color: white;
-    background-color:#1ebba3 ;
+    background-color: #1ebba3;
     border-color: #1ebba3;
 
 }
@@ -128,7 +128,7 @@ h3.heading {
     margin-bottom: 1.9rem;
 }
 .heading-underline{
-    width: 3rem;
+    width: 8rem;
     height: .2rem;
     background-color: #1ebba3;
     margin: 0 auto 2rem;
@@ -169,6 +169,14 @@ h3.heading {
 .fixed-background p{
     margin-top: 1.5rem;
 
+}
+#teachers .courses{
+    text-transform: uppercase;
+    color:#1ebba3;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
 }
 /* client section */
 .clients img {
