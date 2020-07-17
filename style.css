@@ -87,6 +87,9 @@ body{
     font-size: 13px;
     padding: .5rem;
 }
+.login-ftr .fa {
+    color:#1ebba3;
+}
 
 /*-- course section --*/
 .narrow {
@@ -132,26 +135,29 @@ h3.heading {
     height: .2rem;
     background-color: #1ebba3;
     margin: 0 auto 2rem;
-
 }
-.feature .fas  {
-    color: #1ebba3;
+/* carousel part */
+.col-md-3{
+    display: inline-block;
+    margin-left:-4px;
 }
-.feature .fab {
-    color: #1ebba3;
+.col-md-3 img{
+    width:100%;
+    height:auto;
 }
-.feature h3 {
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    padding-bottom: .4rem;
-}
-.feature p {
-    font-size: 1.1rem;
+ .carousel-indicators li{
+    background-color: #252827;
 }
 
-.login-ftr .fa {
-    color:#1ebba3;
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
 }
+
+
+
+
+
 /* resources section */
 .fixed {
     background-image: url("img/chelsey041.jpg");
