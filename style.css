@@ -46,30 +46,26 @@ body{
     top:30%;
     z-index: 1;
     color: white;
-
+}
+ h1{
+     font-size: 2rem;
+     letter-spacing: .3rem;
+     padding-bottom: 1rem;
+     text-transform:uppercase;
+     font-weight: 500;
 
 }
-.caption h1{
-    font-size: 2rem;
-    letter-spacing: .3rem;
-    text-shadow: .1rem .1rem .4rem black;
-    padding-bottom: 1rem;
-    text-transform:uppercase;
-    font-weight: 500;
-
-}
-.caption h3{
-    font-size: 2rem;
-    text-shadow: .1rem .1rem .4rem black;
+h3{
+    font-size: 25px;
     padding-bottom: 1.6rem;
     text-transform: capitalize;
+
 }
 .btn-lg, .md-form {
     border-width: medium;
     border-radius: .15rem;
     padding-top: 2px;
     height: 40px;
-
 }
 .form-control {
     margin: auto ;
@@ -102,9 +98,7 @@ body{
     margin: 1.5rem auto;
     padding-top: 4rem;
 }
-.narrow h1{
-    font-size: 2.4rem;
-}
+
 .btn-secondary {
     width: 300px;
     border-width: medium;
@@ -118,11 +112,11 @@ body{
     border-color: #1ebba3;
 
 }
-
 .btn-secondary:hover {
     background-color: #189582;
     border-color: #189582;
 }
+
 
 /* feature section */
 .jumbotron {
@@ -130,11 +124,7 @@ body{
     padding: 2rem 0 3.5rem;
     border-radius: 0;
 }
-h3.heading {
-    font-size: 1.9rem;
-    text-transform: uppercase;
-    margin-bottom: 1.9rem;
-}
+
 .heading-underline{
     width: 8rem;
     height: .2rem;
@@ -166,11 +156,6 @@ h3.heading {
     text-shadow: .1rem .1rem .4rem black;
     margin-bottom: 0;
 }
-
-
-
-
-
 /* resources section */
 .fixed {
     background-image: url("img/chelsey041.jpg");
@@ -197,8 +182,8 @@ h3.heading {
     letter-spacing: 1px;
     margin-bottom: 1.5rem;
 }
-/* client section */
 
+/* client section */
 .clients img {
     width: 100%;
     border-radius: 50%;
