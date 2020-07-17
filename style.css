@@ -153,6 +153,9 @@ h3.heading {
     padding-left: 0;
     padding-right: 0;
 }
+.carousel-caption p{
+    text-shadow: .1rem .1rem .4rem black;
+}
 
 
 
