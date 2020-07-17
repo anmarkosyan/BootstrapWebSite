@@ -145,9 +145,13 @@ h3.heading {
     width:100%;
     height:auto;
 }
+.carousel-indicators{
+    bottom: -50px;
+}
  .carousel-indicators li{
     background-color: #252827;
-}
+     width: 3rem;
+ }
 
 .no-padding{
     padding-left: 0;
@@ -155,6 +159,7 @@ h3.heading {
 }
 .carousel-caption p{
     text-shadow: .1rem .1rem .4rem black;
+    margin-bottom: 0;
 }
 
 
