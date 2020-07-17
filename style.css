@@ -72,7 +72,12 @@ body{
 
 }
 .form-control {
-    margin: auto;
+    margin: auto ;
+
+}
+#country{
+    margin: 1rem;
+
 }
 #login-btn {
     color:#1ebba3;
