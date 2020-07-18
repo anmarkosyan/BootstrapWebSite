@@ -74,11 +74,16 @@ h3{
 
 }
 /*login section*/
-
-#country{
-    margin-top: 1.5rem ;
-
+input[type=text], [type=password], [type=country],[type=submit]{
+    /* Set width to 40characters */
+    width: 30ch;
+    /* prevent overflow of container */
+    max-width: 100%;
 }
+#country{
+    color: #6b6c6e;
+}
+
 #login-btn {
     color:#1ebba3;
     border-color:#1ebba3;
