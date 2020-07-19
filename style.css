@@ -63,6 +63,10 @@ h3{
     margin: auto ;
 
 }
+input[type=email]{
+    width: 30ch;
+
+}
 /* button for landing page and login page*/
 .btn-outline-light{
     width: 300px;
@@ -73,8 +77,8 @@ h3{
     margin: 1rem;
 
 }
-/*login section*/
-input[type=text], [type=password], [type=country],[type=submit]{
+/*login page*/
+input[type=text], [type=password], [type=country], [type=submit]{
     /* Set width to 40characters */
     width: 30ch;
     /* prevent overflow of container */
@@ -109,7 +113,7 @@ input[type=text], [type=password], [type=country],[type=submit]{
 }
 
 
- .btn-secondary {
+.btn-secondary {
     width: 300px;
     border-width: medium;
     border-radius: .15rem;
@@ -125,7 +129,7 @@ input[type=text], [type=password], [type=country],[type=submit]{
 }
 
 
-/* feature section */
+/* members section */
 .jumbotron {
     margin-bottom: 0;
     padding: 2rem 0 3.5rem;
@@ -138,31 +142,7 @@ input[type=text], [type=password], [type=country],[type=submit]{
     background-color: #1ebba3;
     margin: 0 auto 2rem;
 }
-/* carousel part */
-.col-md-3{
-    display: inline-block;
-    margin-left:-4px;
-}
-.col-md-3 img{
-    width:100%;
-    height:auto;
-}
-.carousel-indicators{
-    bottom: -50px;
-}
- .carousel-indicators li{
-    background-color: #252827;
-     width: 3rem;
- }
 
-.no-padding{
-    padding-left: 0;
-    padding-right: 0;
-}
-.carousel-caption p{
-    text-shadow: .1rem .1rem .4rem black;
-    margin-bottom: 0;
-}
 /* resources section */
 .fixed {
     background-image: url("img/chelsey041.jpg");
@@ -181,6 +161,43 @@ input[type=text], [type=password], [type=country],[type=submit]{
     margin-top: 1.5rem;
 
 }
+.feature .fas, .fab{
+    color: #1ebba3;
+}
+
+
+
+/* teachers section */
+.teachers img {
+    width: 100%;
+    border-radius: 50%;
+}
+/* carousel part */
+.col-md-3{
+    display: inline-block;
+    margin-left:-4px;
+}
+.col-md-3 img{
+    width:100%;
+    height:auto;
+}
+.carousel-indicators{
+    bottom: -50px;
+}
+.carousel-indicators li{
+    background-color: #252827;
+    width: 3rem;
+}
+
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+.carousel-caption p{
+    text-shadow: .1rem .1rem .4rem black;
+    margin-bottom: 0;
+}
+
 /* teachers page*/
 #teachers .courses{
     width: 75%;
@@ -191,19 +208,12 @@ input[type=text], [type=password], [type=country],[type=submit]{
     letter-spacing: 1px;
     margin-bottom: 1.5rem;
 }
-
-/* client section */
-.clients img {
-    width: 100%;
-    border-radius: 50%;
-}
 blockquote .fas {
     color: #1ebba3;
     margin: 1rem  1rem 0 1rem;
 }
-.clients-hr {
-    border-top: 0.1rem solid  #1ebba3;
-}
+
+
 /* footer section */
 footer {
     background-color: #40474e;
