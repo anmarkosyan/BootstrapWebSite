@@ -108,11 +108,9 @@ input[type=text], [type=password], [type=country], [type=submit]{
 
 /*-- course section --*/
 .narrow {
-    margin: 1.5rem auto;
+    margin: 4.5rem auto;
     padding-top: 4rem;
 }
-
-
 .btn-secondary {
     width: 300px;
     border-width: medium;
@@ -217,7 +215,6 @@ input[type=text], [type=password], [type=country], [type=submit]{
     padding-left: 75px;
     padding-right: 75px;
     background-color: black;
-
 }
 
 .image {
@@ -231,12 +228,7 @@ input[type=text], [type=password], [type=country], [type=submit]{
 blockquote .fas{
     color: #1ebba3;
     margin: 1rem  1rem 0 1rem;
-
 }
-
-
-
-
 
 
 /* footer section */
