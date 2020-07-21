@@ -1,3 +1,6 @@
+
+@import "CSS/fixed.css";
+
 body{
     overflow-x: hidden;
     font-family:'Lato', sans-serif;
@@ -103,6 +106,9 @@ input[type=text], [type=password], [type=country], [type=submit]{
 }
 .login-ftr .fa {
     color:#1ebba3;
+}
+#country {
+    margin-top: 1.5rem;
 }
 
 
